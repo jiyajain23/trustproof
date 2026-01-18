@@ -83,7 +83,9 @@ export default function ReviewSubmission({ setVerificationResult, setCurrentPage
         setStepStatus({ 5: 'active' });
         const formDataUpload = new FormData();
         formDataUpload.append('file', formData.mediaFile);
-        
+
+        // NOTE: API key temporarily exposed for hackathon demo.
+        // In production, all tool calls are routed via backend.
         const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://trust-proof.onrender.com/tools';
         const API_KEY = import.meta.env.VITE_API_KEY || '7JNVg4j5T5JoujBbOEMy47npbSGZZ2bW';
         
@@ -182,7 +184,7 @@ export default function ReviewSubmission({ setVerificationResult, setCurrentPage
       <HeroSection
         title="Review Submission"
         subtitle={{ regular: "Submit a ", gradient: "verified review" }}
-        description="Share your experience with cryptographic proof of purchase"
+        description="Share your experience with proof of purchase"
         gridOptions={{ angle: 65, opacity: 0.4, cellSize: 50 }}
         className="min-h-full"
       >

@@ -12,6 +12,8 @@ export function mapRange(value, fromLow, fromHigh, toLow, toHigh) {
 }
 
 // Backend API Configuration
+// NOTE: API key temporarily exposed for hackathon demo.
+// In production, all tool calls are routed via backend.
 export const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'https://trust-proof.onrender.com/tools'
 export const API_KEY = import.meta.env.VITE_API_KEY || '7JNVg4j5T5JoujBbOEMy47npbSGZZ2bW'
 

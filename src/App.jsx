@@ -53,7 +53,7 @@ export default function App() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.2 }}
             >
-              The only review platform that cryptographically links feedback to real transactions. No fakes. Just truth.
+              The only review platform that verifies the purchase firsthand and uses AI to ensure authenticity, building a community of trusted reviewers and reliable businesses.
             </motion.p>
             <motion.div 
               className="mt-10 flex flex-col sm:flex-row gap-6 justify-center md:justify-start"
