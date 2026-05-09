@@ -155,10 +155,3 @@ MIT License
 ## 👥 Team
 Built during a hackathon using OnDemand APIs by a team focused on solving real-world trust problems with AI.
 
-
----
-
-## 👤 Author
-
-Built by **Aditya**  
-B.Tech CSE | Full-Stack & AI Systems
